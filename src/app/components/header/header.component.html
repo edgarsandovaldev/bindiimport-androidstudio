@@ -7,13 +7,13 @@
       <ul class="uk-navbar-nav">
           <span></span>
           <li>
-              <a href="#">Productos</a>
+              <a href="#">Contáctenos</a>
               <div class="uk-navbar-dropdown">
                   <ul class="uk-nav uk-navbar-dropdown-nav">
-                      <li class="uk-active"><a href="#">Líneas</a></li>
-                      <li><a href="#">100% Naturales</a></li>
-                      <li><a href="#">Sin Preservantes</a></li>
-                      <li><a href="#">Gluten Free</a></li>
+                      <li class="uk-active"><a href="#"><span class="uk-margin-small-right" uk-icon="icon: mail"></span>Escríbanos</a></li>
+                      <li><a href="#"><span class="uk-margin-small-right" uk-icon="icon: instagram"></span>Instagram</a></li>
+                      <li><a href="#"><span class="uk-margin-small-right" uk-icon="icon: facebook"></span>Facebook</a></li>
+                      <li><a href="#"><span class="uk-margin-small-right" uk-icon="icon: whatsapp"></span>Whatsapp</a></li>
                   </ul>
               </div>
           </li>
@@ -32,8 +32,10 @@
 
 
 <div class="uk-navbar-center-right">
-  <ul class="uk-navbar-nav">
+<!---->
 <!--
+  <ul class="uk-navbar-nav">
+
       <li>
           <a href="#">Contacto</a>
           <div class="uk-navbar-dropdown">
@@ -46,8 +48,10 @@
               </ul>
           </div>
       </li>
--->
+
   </ul>
+-->
+
 </div>
 
   </div>
@@ -56,37 +60,79 @@
     <a class="uk-navbar-toggle "uk-toggle="target: #offcanvas-reveal" uk-navbar-toggle-icon href="#"></a>
     <span></span>
 </div>
+
+
 </nav>
 
+
+
 <div id="offcanvas-reveal" class="" uk-offcanvas="mode: reveal; overlay: true">
-  <div class="uk-offcanvas-bar uk-background-muted ">
-      <div class="fondorojo">
-      <button class="uk-offcanvas-close" type="button" uk-close></button>
 
-      <div class="uk-width-1-2@s">
-        <ul class="uk-nav-primary" uk-nav>
-            <li class="uk-active"><a href="#">Categorias</a></li>
-            <li class="uk-parent">
-                <a href="#">Snacks<span uk-nav-parent-icon></span></a>
-                <ul class="uk-nav-sub">
-                    <li><a href="#"></a></li>
-                    <li><a href="#"></a></li>
-                </ul>
-            </li>
-            <li class="uk-parent">
-                <a href="#">Salsas<span uk-nav-parent-icon></span></a>
-                <ul class="uk-nav-sub">
-                    <li><a href="#"></a></li>
-                    <li><a href="#"></a></li>
-                </ul>
-            </li>
-            <li><a href="#">Pedidos</a></li>
+  <div class="uk-offcanvas-bar ">
+
+    <app-nav-left></app-nav-left>
+  <!--
+    <ul class="uk-nav-default" uk-nav>
+      <li class="uk-active"><a href="#">Productos</a></li>
+      <li class="uk-parent">
+          <a href="#">Snacks<span uk-nav-parent-icon></span></a>
+          <ul class="uk-nav-sub">
+              <li><a href="#"><span class="uk-margin-small-right" uk-icon="icon: triangle-right"></span>Chips de Papas</a></li>
+              <li><a href="#"><span class="uk-margin-small-right" uk-icon="icon: triangle-right"></span>Snacks derivados de Plátano</a></li>
+              <li><a href="#"><span class="uk-margin-small-right" uk-icon="icon: triangle-right"></span>Palitos de sabores</a></li>
+              <li><a href="#"><span class="uk-margin-small-right" uk-icon="icon: triangle-right"></span>Crispetas</a></li>
+              <li><a href="#"><span class="uk-margin-small-right" uk-icon="icon: triangle-right"></span>Rosquitas</a></li>
+              <li><a href="#"><span class="uk-margin-small-right" uk-icon="icon: triangle-right"></span>Barquillo relleno</a></li>
+              <li><a href="#"><span class="uk-margin-small-right" uk-icon="icon: triangle-right"></span>Galletas</a></li>
+              <li><a href="#"><span class="uk-margin-small-right" uk-icon="icon: triangle-right"></span>Parmesanitos integrales</a></li>
+              <li><a href="#"><span class="uk-margin-small-right" uk-icon="icon: triangle-right"></span>Barras de cereal</a></li>
+              <li><a href="#"><span class="uk-margin-small-right" uk-icon="icon: triangle-right"></span>Legumbres en grano</a></li>
+              <li><a href="#"><span class="uk-margin-small-right" uk-icon="icon: triangle-right"></span>Choco Quinua bites</a></li>
+          </ul>
+      </li>
+      <li class="uk-parent">
+        <a href="#">Derivados de Frutas<span uk-nav-parent-icon></span></a>
+        <ul class="uk-nav-sub">
+            <li><a href="#"><span class="uk-margin-small-right" uk-icon="icon: triangle-right"></span>Salsas de frutas</a></li>
+            <li><a href="#"><span class="uk-margin-small-right" uk-icon="icon: triangle-right"></span>Fruta Deshidratada</a></li>
+
         </ul>
-      </div>
+      </li>
+      <li class="uk-parent">
+        <a href="#">Panela Orgánica y Derivados<span uk-nav-parent-icon></span></a>
+        <ul class="uk-nav-sub">
+            <li><a href="#"><span class="uk-margin-small-right" uk-icon="icon: triangle-right"></span>Panela Orgánica</a></li>
+            <li><a href="#"><span class="uk-margin-small-right" uk-icon="icon: triangle-right"></span>Miel de caña orgánica </a></li>
+        </ul>
+      </li>
+      <li class="uk-parent">
+          <a href="#">Granos y Semillas <span uk-nav-parent-icon></span></a>
+          <ul class="uk-nav-sub">
+              <li><a href="#"><span class="uk-margin-small-right" uk-icon="icon: triangle-right"></span>Semillas (Quinoa, linaza, Chía)</a></li>
+              <li><a href="#"><span class="uk-margin-small-right" uk-icon="icon: triangle-right"></span>Arroz integral  (Quinua)</a></li>
+              <li><a href="#"><span class="uk-margin-small-right" uk-icon="icon: triangle-right"></span>Hojuelas (avena , quinua)</a></li>
+          </ul>
+      </li>
+      <li class="uk-parent">
+        <a href="#">Harinas, pastas y derivados <span uk-nav-parent-icon></span></a>
+        <ul class="uk-nav-sub">
+            <li><a href="#"><span class="uk-margin-small-right" uk-icon="icon: triangle-right"></span>Pastas (Garbanzos, lentejas)</a></li>
+            <li><a href="#"><span class="uk-margin-small-right" uk-icon="icon: triangle-right"></span>Harinas (Garbanzo, quinua, avena y arroz)</a></li>
+            <li><a href="#"><span class="uk-margin-small-right" uk-icon="icon: triangle-right"></span>Premezclas ( Pan, waffles, crepes, muffins, pancakes</a></li>
+            <li><a href="#"><span class="uk-margin-small-right" uk-icon="icon: triangle-right"></span>Polvos (Canela, cúrcuma, jengibre, cardamomo)</a></li>
+        </ul>
+    </li>
+      <li class="uk-nav-header">Bindi Import</li>
+      <li><a href="#"><span class="uk-margin-small-right" uk-icon="icon: home"></span> Home</a></li>
+      <li><a href="#"><span class="uk-margin-small-right" uk-icon="icon: heart"></span> Nuestros Latidos</a></li>
+      <li><a href="#"><span class="uk-margin-small-right" uk-icon="icon: star"></span> Responsabilidad Social y Ambiental</a></li>
 
+      <li class="uk-nav-divider"></li>
+      <li><a href="#"><span class="uk-margin-small-right" uk-icon="icon: user"></span> CONTÁCTENOS</a></li>
+  </ul>-->
 
-      </div>
   </div>
+
 </div>
 
 
