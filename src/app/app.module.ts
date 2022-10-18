@@ -5,11 +5,9 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
-import { InicioComponent } from './components/inicio/inicio.component';
-import { ContactoComponent } from './components/contacto/contacto.component';
+import { InicioComponent } from './secciones/inicio/inicio.component';
 import { CategoriasComponent } from './components/categorias/categorias.component';
 import { ProductoComponent } from './components/producto/producto.component';
-import { TarjetaComponent } from './components/tarjeta/tarjeta.component';
 import { WhatsappComponent } from './components/whatsapp/whatsapp.component';
 import { EndesarrolloComponent } from './components/endesarrollo/endesarrollo.component';
 import { NuestrosLatidosComponent } from './secciones/nuestros-latidos/nuestros-latidos.component';
@@ -27,10 +25,9 @@ import { NavLeftBindiComponent } from './components/nav-left-bindi/nav-left-bind
     HeaderComponent,
     FooterComponent,
     InicioComponent,
-    ContactoComponent,
     CategoriasComponent,
     ProductoComponent,
-    TarjetaComponent,
+
     WhatsappComponent,
     EndesarrolloComponent,
     NuestrosLatidosComponent,

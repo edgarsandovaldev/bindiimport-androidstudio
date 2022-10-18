@@ -1993,6 +1993,12 @@ select.uk-form-width-xsmall {
 .uk-button-primary:hover {
   background-color: #F7A423;
   color: #fff;
+
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
 }
 /* OnClick + Active */
 .uk-button-primary:active,
@@ -2571,6 +2577,8 @@ select.uk-form-width-xsmall {
   position: relative;
   box-sizing: border-box;
   transition: box-shadow 0.1s ease-in-out;
+  border-radius: 20px;
+
 }
 /* Sections
  ========================================================================== */
@@ -2679,6 +2687,7 @@ select.uk-form-width-xsmall {
 }
 .uk-card-default .uk-card-header {
   border-bottom: 1px solid #e5e5e5;
+
 }
 .uk-card-default .uk-card-footer {
   border-top: 1px solid #e5e5e5;
