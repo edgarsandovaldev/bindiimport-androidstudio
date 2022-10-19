@@ -1,6 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
 .fondorojo {
-  background-color:#D01F27;
+  background-color:#f0506e;
   border-radius: 30px;
   padding: 10px;
   margin-top: 10px;
@@ -45,14 +45,14 @@ body {
  */
 a,
 .uk-link {
-  color: #1e87f0;
+  color: #f0506e;
   text-decoration: none;
   cursor: pointer;
 }
 a:hover,
 .uk-link:hover,
 .uk-link-toggle:hover .uk-link {
-  color: #0f6ecd;
+  color: #f0506e;
   text-decoration: underline;
 }
 /* Text-level semantics
@@ -413,7 +413,7 @@ pre code {
 /* Selection pseudo-element
  ========================================================================== */
 ::selection {
-  background: #39f;
+  background: #f0506e;
   color: #fff;
   text-shadow: none;
 }
@@ -488,7 +488,7 @@ a.uk-link-heading,
 a.uk-link-heading:hover,
 .uk-link-heading a:hover,
 .uk-link-toggle:hover .uk-link-heading {
-  color: #1e87f0;
+  color: #f0506e;
   text-decoration: none;
 }
 /* Reset
@@ -791,7 +791,7 @@ a.uk-link-reset,
   color: #333 !important;
 }
 .uk-list-primary > ::before {
-  color: #1e87f0 !important;
+  color: #f0506e !important;
 }
 .uk-list-secondary > ::before {
   color: #222 !important;
@@ -1484,7 +1484,7 @@ button.uk-icon:not(:disabled) {
   outline: none;
   background-color: #fff;
   color: #666;
-  border-color: #1e87f0;
+  border-color: #f0506e;
 }
 /* Disabled */
 .uk-input:disabled,
@@ -1683,7 +1683,7 @@ select.uk-form-width-xsmall {
 .uk-checkbox:focus {
   background-color: rgba(0, 0, 0, 0);
   outline: none;
-  border-color: #1e87f0;
+  border-color: #f0506e;
 }
 /*
  * Checked
@@ -1691,14 +1691,14 @@ select.uk-form-width-xsmall {
 .uk-radio:checked,
 .uk-checkbox:checked,
 .uk-checkbox:indeterminate {
-  background-color: #1e87f0;
+  background-color: #f0506e;
   border-color: transparent;
 }
 /* Focus */
 .uk-radio:checked:focus,
 .uk-checkbox:checked:focus,
 .uk-checkbox:indeterminate:focus {
-  background-color: #0e6dcd;
+  background-color: #f0506e;
 }
 /*
  * Icons
@@ -1979,7 +1979,7 @@ select.uk-form-width-xsmall {
  * Primary
  */
 .uk-button-primary {
-  background-color: #D01F27;
+  background-color: #f0506e;
   color: #fff;
   border: 1px solid transparent;
 }
@@ -2041,7 +2041,7 @@ select.uk-form-width-xsmall {
 /* OnClick + Active */
 .uk-button-danger:active,
 .uk-button-danger.uk-active {
-  background-color: #ec2147;
+  background-color: #f0506e;
   color: #fff;
 }
 /*
@@ -2304,7 +2304,7 @@ select.uk-form-width-xsmall {
  * Primary
  */
 .uk-section-primary {
-  background: #1e87f0;
+  background: #f0506e;
 }
 /*
  * Secondary
@@ -2562,7 +2562,7 @@ select.uk-form-width-xsmall {
  * Primary
  */
 .uk-tile-primary {
-  background-color: #1e87f0;
+  background-color: #f0506e;
 }
 /*
  * Secondary
@@ -2644,7 +2644,7 @@ select.uk-form-width-xsmall {
   height: 22px;
   padding: 0 10px;
   /* 3 */
-  background: #1e87f0;
+  background: #f0506e;
   color: #fff;
   font-size: 0.875rem;
   /* 4 */
@@ -2696,7 +2696,7 @@ select.uk-form-width-xsmall {
  * Primary
  */
 .uk-card-primary {
-  background-color: #1e87f0;
+  background-color: #f0506e;
   color: #fff;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
 }
@@ -2704,7 +2704,7 @@ select.uk-form-width-xsmall {
   color: #fff;
 }
 .uk-card-primary.uk-card-hover:hover {
-  background-color: #1e87f0;
+  background-color: #f0506e;
   box-shadow: 0 14px 25px rgba(0, 0, 0, 0.16);
 }
 /*
@@ -2977,7 +2977,7 @@ select.uk-form-width-xsmall {
  */
 .uk-alert-primary {
   background: #d8eafc;
-  color: #1e87f0;
+  color: #f0506e;
 }
 /*
  * Success
@@ -3053,7 +3053,7 @@ select.uk-form-width-xsmall {
   border-radius: 500px;
   vertical-align: middle;
   /* 1 */
-  background: #1e87f0;
+  background: #f0506e;
   color: #fff !important;
   font-size: 11px;
   /* 2 */
@@ -3074,7 +3074,7 @@ select.uk-form-width-xsmall {
 .uk-label {
   display: inline-block;
   padding: 0 10px;
-  background: #1e87f0;
+  background: #f0506e;
   line-height: 1.5;
   font-size: 0.875rem;
   color: #fff;
@@ -3379,7 +3379,7 @@ select.uk-form-width-xsmall {
 /* Focus */
 .uk-search-default .uk-search-input:focus {
   background-color: rgba(0, 0, 0, 0);
-  border-color: #1e87f0;
+  border-color: #f0506e;
 }
 /*
  * Icon
@@ -5366,7 +5366,7 @@ ul.uk-nav-sub {
 /* * Nav items Color de letras */
 .uk-navbar-nav > li > a {
   padding: 0 0;
-  color: #D01F27;
+  color: #f0506e;
   text-transform: uppercase;
   transition: 0.1s ease-in-out;
   transition-property: color, background-color;
@@ -5379,7 +5379,7 @@ ul.uk-nav-sub {
  */
 .uk-navbar-nav > li:hover > a,
 .uk-navbar-nav > li > a[aria-expanded="true"] {
-  color: #d55057;
+  color: #f0506e;
 }
 /* OnClick */
 .uk-navbar-nav > li > a:active {
@@ -5387,7 +5387,7 @@ ul.uk-nav-sub {
 }
 /* Active */
 .uk-navbar-nav > li.uk-active > a {
-  color: #D01F27;
+  color: #f0506e;
 }
 /* Parent icon modifier
  ========================================================================== */
@@ -5413,7 +5413,7 @@ ul.uk-nav-sub {
  AQUI EL COLOR DE ELEMETO MENU====================================== */
 .uk-navbar-toggle {
   padding: 0 0;
-  color: #D01F27;
+  color: #f0506e;
 }
 .uk-navbar-toggle:hover,
 .uk-navbar-toggle[aria-expanded="true"] {
@@ -5735,7 +5735,7 @@ ul.uk-nav-sub {
 }
 /* Active */
 .uk-subnav-pill > .uk-active > a {
-  background-color: #1e87f0;
+  background-color: #f0506e;
   color: #fff;
 }
 /* Disabled
@@ -5923,7 +5923,7 @@ ul.uk-nav-sub {
 /* Active */
 .uk-tab > .uk-active > a {
   color: #333;
-  border-color: #1e87f0;
+  border-color: #f0506e;
 }
 /* Disabled */
 .uk-tab > .uk-disabled > a {
@@ -7356,7 +7356,7 @@ ul.uk-nav-sub {
   color: #333 !important;
 }
 .uk-text-primary {
-  color: #1e87f0 !important;
+  color: #f0506e !important;
 }
 .uk-text-secondary {
   color: #222 !important;
@@ -7386,7 +7386,7 @@ ul.uk-nav-sub {
   /* 3 */
   display: inline-block;
   /* 4 */
-  background-color: #1e87f0;
+  background-color: #f0506e;
 }
 /* Alignment modifiers
  ========================================================================== */
@@ -7685,7 +7685,7 @@ iframe[data-uk-cover] {
   background-color: #f8f8f8;
 }
 .uk-background-primary {
-  background-color: #1e87f0;
+  background-color: #f0506e;
 }
 .uk-background-secondary {
   background-color: #222;
