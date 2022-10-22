@@ -2,10 +2,11 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
 //importacion de componentes de secciones
-import { ProductoComponent } from './components/producto/producto.component';
+
 import { ContactenosComponent } from './secciones/contactenos/contactenos.component';
 import { InicioComponent } from './secciones/inicio/inicio.component';
 import { NuestrosLatidosComponent } from './secciones/nuestros-latidos/nuestros-latidos.component';
+import { ProductosComponent } from './secciones/productos/productos.component';
 import { ResponsabilidadSocialComponent } from './secciones/responsabilidad-social/responsabilidad-social.component';
 
 const routes: Routes = [
@@ -16,7 +17,7 @@ const routes: Routes = [
   { path: 'contactenos', component: ContactenosComponent },
   { path: 'inicio', component: InicioComponent },
   { path: 'nuestros-latidos', component: NuestrosLatidosComponent },
-  { path: 'productos', component: ProductoComponent },
+  { path: 'productos', component: ProductosComponent },
   { path: 'responsabilidad', component: ResponsabilidadSocialComponent },
 
 ];
