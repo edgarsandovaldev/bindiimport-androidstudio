@@ -17,8 +17,7 @@ import { ProductosComponent } from './secciones/productos/productos.component';
 import { NavLeftComponent } from './components/nav-left/nav-left.component';
 import { NavLeftProductsComponent } from './components/nav-left-products/nav-left-products.component';
 import { NavLeftBindiComponent } from './components/nav-left-bindi/nav-left-bindi.component';
-import { TodosComponent } from './modules/prroductos/todos/todos.component';
-import { MarcasComponent } from './modules/prroductos/marcas/marcas.component';
+
 
 
 @NgModule({
@@ -39,8 +38,7 @@ import { MarcasComponent } from './modules/prroductos/marcas/marcas.component';
     NavLeftComponent,
     NavLeftProductsComponent,
     NavLeftBindiComponent,
-    TodosComponent,
-    MarcasComponent
+
   ],
   imports: [
     BrowserModule,
