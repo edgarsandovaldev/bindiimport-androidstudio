@@ -1,0 +1,22 @@
+
+.curvas {
+  background-image: url(../../../assets/banners/fondo-onda-blanca-suave.webp);
+
+}
+
+.amarillo {
+  background-color: #F9A41E;
+}
+
+.border15 {
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+
+p {
+  color: aliceblue;
+  text-shadow: darkred;
+}

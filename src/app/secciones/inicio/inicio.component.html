@@ -1,24 +1,43 @@
 <!--PRIMERA SECCIÓN-------------------------------------------------------->
+<div class="uk-position-relative uk-visible-toggle uk-light  uk-background-cover uk-height-medium " tabindex="-1" uk-slideshow="animation: scale">
 
+    <ul class="uk-slideshow-items">
+        <li>
+          <h1 class="animate__animated animate__slideInLeft animate__delay-1s">Llevamos nuestra tierra a todas partes del mundo</h1>
+            <img src="https://img.freepik.com/foto-gratis/mujer-agricultora-ve-tabaco-campo_1150-5860.jpg?w=826&t=st=1672844166~exp=1672844766~hmac=9622f57234b0efbbeeb15a55aa116c4d11cd73de9a8eed5fa53a82f01ae2af01" alt="" uk-cover>
+        </li>
+        <li>
+            <img src="https://img.freepik.com/fotos-premium/pueblo-cerca-lajas-colombia-foto-alta-calidad_418500-727.jpg?w=826" alt="" uk-cover>
+        </li>
+        <li>
+            <img src="https://img.freepik.com/foto-gratis/hermoso-jardin-fresas-amanecer-doi-ang-khang-chiang-mai-tailandia_335224-761.jpg?w=826&t=st=1672844230~exp=1672844830~hmac=e5caeb74a514d623e7110e7ac2acc4eb53131edfb84f1bf31904236cacac0551" alt="" uk-cover>
+        </li>
+    </ul>
 
+    <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slideshow-item="previous"></a>
+    <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slideshow-item="next"></a>
 
-<div class="uk-height-medium uk-flex uk-flex-center uk-flex-middle uk-background-cover uk-light" data-src="../../../assets/banners/campos-colombianos.jpg" uk-img>
-  <h1>Llevamos nuestra tierra a todas partes del mundo</h1>
 </div>
+
 
 
 <!--PRIMERA SECCIÓN-------------------------------------------------------->
 <div class="uk-section uk-section-default">
+
+
   <div class="uk-container">
 
     <div class="uk-child-width-1-3@m" uk-grid uk-scrollspy="cls: uk-animation-fade; target: .uk-card; delay: 500; repeat: true">
       <div>
-          <div class="uk-card uk-card-default uk-card-body">
-              <h3 class="uk-card-title">Bindi</h3>
-              <p>Conócenos por dentro.</p>
-              <a href="https:google.com" target="_blank"><button class="uk-button uk-button-danger">Vamos</button></a>
-          </div>
+
+        <div class="uk-card uk-card-hover uk-card-body">
+              <img src="../../../assets/banners/banners-inicio/nuestros-latidos-bindi.png" alt="">
+              <a href="https:google.com" target="_blank"><button class="uk-button uk-button-primary">Vamos</button></a>
+            </div>
+
       </div>
+
+
       <div>
           <div class="uk-card uk-card-default uk-card-body">
               <h3 class="uk-card-title">Nuestros Latidos</h3>
@@ -30,39 +49,49 @@
           <div class="uk-card uk-card-default uk-card-body">
               <h3 class="uk-card-title">Responsabilidad Social</h3>
               <p>Conscientes de nuestro deber.</p>
-              <a href="https:google.com" target="_blank"><button class="uk-button uk-button-danger">Vamos</button></a>
-          </div>
-      </div>
-      <div>
-          <div class="uk-card uk-card-default uk-card-body">
-              <h3 class="uk-card-title">Aportamos a nuestro planeta</h3>
-              <p>Soñamos con un mundo más sostenible.</p>
-              <a href="https:google.com" target="_blank"><button class="uk-button uk-button-danger">Vamos</button></a>
-          </div>
-      </div>
-      <div>
-          <div class="uk-card uk-card-default uk-card-body">
-              <h3 class="uk-card-title">Videos</h3>
-              <p>Audiovisuales que nos muestran por dentro.</p>
-              <a href="#" target="_blank"><button class="uk-button uk-button-danger">Vamos</button></a>
-
-
-          </div>
-      </div>
-      <div>
-          <div class="uk-card uk-card-default uk-card-body">
-              <h3 class="uk-card-title">Productos</h3>
-              <p>Elaborados con calidad de exportación y 100% Colombianos</p>
-              <a href="#" target="_blank"><button class="uk-button uk-button-danger">Vamos</button></a>
+              <a href="#modal-full" uk-toggle target="_blank"><button class="uk-button uk-button-danger">Vamos</button></a>
           </div>
       </div>
   </div>
-
   </div>
+
+  <div id="modal-full" class="uk-modal-full" uk-modal>
+    <div class="uk-modal-dialog">
+        <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
+        <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-middle" uk-grid>
+            <div class="uk-padding-large amarillo">
+                  <h1>Pensamos en el Ambiente</h1>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              </div>
+            <div class="uk-background-cover" uk-scrollspy="cls: uk-animation-kenburns; repeat: true" style="background-image: url('https://img.freepik.com/fotos-premium/tiro-vertical-parque-otono_665346-8455.jpg?w=360');" uk-height-viewport></div>
+
+        </div>
+        <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-middle" uk-grid>
+          <div class="uk-background-cover border15" uk-scrollspy="cls: uk-animation-kenburns; repeat: true" style="background-image: url('https://img.freepik.com/foto-gratis/surtido-objetos-plastico-no-ecologicos_23-2148862509.jpg?w=740&t=st=1672755989~exp=1672756589~hmac=465c31a2710ab4d262893ea850bf0b779c1dd297493e552df3c6220237359d62');" uk-height-viewport></div>
+          <div class="uk-padding-large amarillo">
+              <h1>Creemos que un mundo sostenible es Posible</h1>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </div>
+      </div>
+      <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-middle" uk-grid>
+
+        <div class="uk-padding-large amarillo">
+            <h1 class="uk-heading-line"><span>Viviendas de Amor</span> </h1>
+            <p>La Fundación Botellas de Amor tiene el objetivo de beneficiar familias vulnerables que tengan un terreno pero por sus condiciones socioeconómicas no tengan capacidad para construir una vivienda digna.</p>
+        </div>
+        <div class="uk-background-cover border15" uk-scrollspy="cls: uk-animation-kenburns; repeat: true" style="background-image: url('https://botellasdeamor.org/wp-content/uploads/2019/12/viviendas.jpg');" uk-height-viewport></div>
+    </div>
+    </div>
 </div>
-
-
+</div>
 <!--PRIMERA SECCIÓN-------------------------------------------------------->
+
+
+
+
+
+
+
 <div class="uk-height-large uk-background-cover uk-overflow-hidden uk-light uk-flex" style="background-image: url('../../../assets/campos-colombianos.webp');">
   <div class="uk-width-1-2@m uk-text-center uk-margin-auto uk-margin-auto-vertical">
       <h1 uk-parallax="opacity: 0,1,1; y: -100,0,0; x: 100,100,0; scale: 2,1,1; end: 50vh + 50%;">Productos del campo</h1>
@@ -72,359 +101,164 @@
 </div>
 
 
-
-
-
-
 <!--SECCIÓN NUESTRAS MARCAS-------------------------------------------------------->
 
 
-<div class="uk-section uk-section-muted">
+<div class="uk-section uk-background-cover curvas" >
+  <nav class="uk-navbar-container" uk-navbar="align: center"   >
+
+    <div class="uk-navbar-center"  >
+
+      <a href="#"><h2 data-aos="zoom-in"> <strong>Nuestros Aliados</strong> </h2> </a>
+
+    </div>
+
+  </nav>
+
+<br><br><br>
+
     <div class="uk-container uk-cover-container uk-height-x-large">
 
-        <h3>Nuestras Marcas</h3>
 
-        <div uk-filter="target: .js-filter">
+        <div >
 
-          <ul class="uk-subnav uk-subnav-pill">
-              <!-- <li class="uk-active" uk-filter-control><a href="#">Todas</a></li>-->
-              <li class="uk-active" uk-filter-control="[data-color='marcas']"><a href="#">Marcas</a></li>
-              <li uk-filter-control="[data-color='snacks']"><a href="#">Snacks</a></li>
-              <li uk-filter-control="[data-color='df']"><a href="#">Derivados de Frutas</a></li>
-              <li uk-filter-control="[data-color='po']"><a href="#">Panela Orgánica</a></li>
-              <li uk-filter-control="[data-color='granos']"><a href="#">Granos y Semillas</a></li>
-              <li uk-filter-control="[data-color='harinas']"><a href="#">Harinas Pastas y Derivados</a></li>
-          </ul>
+          <ul class="uk-child-width-1-2 uk-child-width-1-3@m uk-text-center" uk-grid >
 
-
-
-
-          <ul class="js-filter uk-child-width-1-2 uk-child-width-1-3@m uk-text-center" uk-grid>
-
-            <li data-color="marcas">
-              <div class="uk-animation-toggle" tabindex="0">
-                <div class="uk-animation-slide-top">
-                    <img src="../../../assets/Snacks/monterojo/logo monterrojo-19.png" alt="" width="150px" >
+            <li>
+              <div data-aos="flip-left"
+              data-aos-easing="ease-out-cubic"
+              data-aos-duration="2000">
+                <div>
+                    <img src="../../../assets/Snacks/monterojo/logo monterrojo-19.png" alt="" width="80px" >
                 </div>
               </div>
             </li>
 
-            <li data-color="marcas">
-              <div class="uk-animation-toggle" tabindex="0">
-                <div class="uk-animation-slide-top">
-                  <img src="../../../assets/Snacks/Delipopp/logo-delipop-01.png" alt="" width="250px" >
+            <li>
+              <div>
+                <div data-aos="flip-left"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="2000">
+                  <img src="../../../assets/Snacks/Delipopp/logo-delipop-01.png" alt="" width="150px" >
                 </div>
               </div>
             </li>
 
-            <li data-color="marcas">
-              <div class="uk-animation-toggle" tabindex="0">
-                <div class="uk-animation-slide-top">
-                  <img src="../../../assets/Snacks/UAU/logo monterrojo-20.png" alt="" width="150px" >
+            <li >
+              <div data-aos="flip-left"
+              data-aos-easing="ease-out-cubic"
+              data-aos-duration="2000">
+                <div >
+                  <img src="../../../assets/Snacks/UAU/logo monterrojo-20.png" alt="" width="80px" >
                 </div>
               </div>
             </li>
 
 
-            <li data-color="marcas">
-              <div class="uk-animation-toggle" tabindex="0">
-                <div class="uk-animation-slide-top">
-                  <img src="../../../assets/Snacks/PROBA/logo-proba.png" alt="" width="200px" >
+            <li >
+              <div data-aos="flip-left"
+              data-aos-easing="ease-out-cubic"
+              data-aos-duration="2000">
+                <div >
+                  <img src="../../../assets/Snacks/PROBA/logo-proba.png" alt="" width="150px" >
                 </div>
               </div>
             </li>
 
 
 
-            <li data-color="marcas">
-              <div class="uk-animation-toggle" tabindex="0">
-                <div class="uk-card uk-card-default uk-card-body uk-animation-slide-top">
-                    <p class="uk-text-center">Enerfruit</p>
+            <li>
+              <div data-aos="flip-left"
+              data-aos-easing="ease-out-cubic"
+              data-aos-duration="2000">
+                <div >
+                  <img src="../../../assets/banners/logo-enerfruit-01.png" alt="" width="180px" >
                 </div>
               </div>
             </li>
 
-            <li data-color="marcas">
-              <div class="uk-animation-toggle" tabindex="0">
-                <div class="uk-card uk-card-default uk-card-body uk-animation-slide-top">
+            <li>
+              <div >
+                <div  data-aos="flip-left"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="2000" class="uk-card uk-card-default uk-card-body ">
                     <p class="uk-text-center">Nat Nack</p>
                 </div>
               </div>
             </li>
 
 
-            <li data-color="marcas">
-              <div class="uk-animation-toggle" tabindex="0">
-                <div class="uk-animation-slide-top">
-                  <img src="../../../assets/Snacks/Stiky Snacks/logo-stiky.webp" alt="" width="230px" >
+            <li>
+              <div data-aos="flip-left"
+              data-aos-easing="ease-out-cubic"
+              data-aos-duration="2000">
+                <div >
+                  <img src="../../../assets/banners/logo-la-platanera-01.png" alt="" width="160px" >
                 </div>
               </div>
             </li>
 
 
-            <li data-color="marcas">
-              <div class="uk-animation-toggle" tabindex="0">
-                <div class="uk-card uk-card-default uk-card-body uk-animation-slide-top">
-                    <p class="uk-text-center">One Piece</p>
+            <li>
+              <div data-aos="flip-left"
+              data-aos-easing="ease-out-cubic"
+              data-aos-duration="2000">
+                <div >
+                  <img src="../../../assets/banners/one-peace-logo.png" alt="" width="120px" >
                 </div>
               </div>
             </li>
 
 
-            <li data-color="marcas">
-              <div class="uk-animation-toggle" tabindex="0">
-                <div class="uk-animation-slide-top">
-                  <img src="../../../assets/FRUTAS/fruitexco/fruitexco-01.png" alt="Salsas de Frutas 100% Colombianas" width="230px" >
+            <li>
+              <div data-aos="flip-left"
+              data-aos-easing="ease-out-cubic"
+              data-aos-duration="2000">
+                <div >
+                  <img src="../../../assets/FRUTAS/fruitexco/fruitexco-01.png" alt="Salsas de Frutas 100% Colombianas" width="150px" >
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div data-aos="flip-left"
+              data-aos-easing="ease-out-cubic"
+              data-aos-duration="2000">
+                <div >
+                  <img src="../../../assets/banners/logo-la-platanera-01.png" alt="" width="160px" >
                 </div>
               </div>
             </li>
 
 
-            <li data-color="marcas">
-              <div class="uk-animation-toggle" tabindex="0">
-                <div class="uk-animation-slide-top">
-                  <img src="../../../assets/Snacks/karavansay/logo karabansay.png" alt="Productos Karavansay" width="230px" >
+            <li >
+              <div data-aos="flip-left"
+              data-aos-easing="ease-out-cubic"
+              data-aos-duration="2000">
+                <div >
+                  <img src="../../../assets/Snacks/karavansay/logo karabansay.png" alt="Productos Karavansay" width="150px" >
                 </div>
               </div>
             </li>
-            <li data-color="marcas">
-              <div class="uk-animation-toggle" tabindex="0">
-                <div class="uk-animation-slide-top">
-                  <img src="../../../assets/Snacks/Deli-Cane/delight-cane-logo-01.png" alt="" width="200px" >
-                </div>
-              </div>
-            </li>
-
-            <li data-color="marcas">
-              <div class="uk-animation-toggle" tabindex="0">
-                <div class="uk-animation-slide-top">
-                  <img src="../../../assets/Snacks/OnePiece-Seeds/SEEDS-logo-02.png" alt="" width="200px" >
+            <li >
+              <div data-aos="flip-left"
+              data-aos-easing="ease-out-cubic"
+              data-aos-duration="2000">
+                <div >
+                  <img src="../../../assets/Snacks/Deli-Cane/delight-cane-logo-01.png" alt="" width="100px" >
                 </div>
               </div>
             </li>
 
-
-            <!--Marcas------------------->
-            <li data-color="granos">
-                  <div class="uk-card uk-card-default uk-card-body uk-animation-shake">Semillas</div>
+            <li >
+              <div data-aos="flip-left"
+              data-aos-easing="ease-out-cubic"
+              data-aos-duration="2000">
+                <div >
+                  <img src="../../../assets/Snacks/OnePiece-Seeds/SEEDS-logo-02.png" alt="" width="100px" >
+                </div>
+              </div>
             </li>
-
-              <li data-color="snacks">
-                <div class="uk-animation-toggle" tabindex="0">
-                  <div class="uk-card uk-card-default uk-card-body uk-animation-shake">
-                      <p class="uk-text-center">Chips de Papas</p>
-                  </div>
-                </div>
-              </li>
-
-              <li data-color="snacks">
-                <div class="uk-animation-toggle" tabindex="0">
-                  <div class="uk-card uk-card-default uk-card-body uk-animation-shake">
-                      <p class="uk-text-center">Snacks derivados de Plátanos</p>
-                  </div>
-                </div>
-              </li>
-
-              <li data-color="granos">
-                <div class="uk-animation-toggle" tabindex="0">
-                  <a href="http://">
-                  <div class="uk-card uk-card-default uk-card-body uk-animation-shake">
-                      <p class="uk-text-center">Arroz Integral</p>
-                  </div>
-                </a>
-                </div>
-              </li>
-
-              <li data-color="snacks">
-                <div class="uk-animation-toggle" tabindex="0">
-                  <a href="http://">
-                  <div class="uk-card uk-card-default uk-card-body uk-animation-shake">
-                      <p class="uk-text-center">Palitos de Sabores</p>
-                  </div>
-                </a>
-                </div>
-              </li>
-
-              <li data-color="snacks">
-                <div class="uk-animation-toggle" tabindex="0">
-                  <a href="http://">
-                  <div class="uk-card uk-card-default uk-card-body uk-animation-shake">
-                      <p class="uk-text-center">Palitos de Sabores</p>
-                  </div>
-                </a>
-                </div>
-              </li>
-
-              <li data-color="df">
-                <div class="uk-animation-toggle" tabindex="0">
-                  <a href="http://">
-                  <div class="uk-card uk-card-default uk-card-body uk-animation-shake">
-                      <p class="uk-text-center">Salsas de Frutas</p>
-                  </div>
-                </a>
-                </div>
-              </li>
-
-              <li data-color="snacks">
-                <div class="uk-animation-toggle" tabindex="0">
-                  <a href="http://">
-                  <div class="uk-card uk-card-default uk-card-body uk-animation-shake">
-                      <p class="uk-text-center">Choco Quinua Bytes</p>
-                  </div>
-                </a>
-                </div>
-              </li>
-
-              <li data-color="granos">
-                <div class="uk-animation-toggle" tabindex="0">
-                  <a href="http://">
-                  <div class="uk-card uk-card-default uk-card-body uk-animation-shake">
-                      <p class="uk-text-center">Hojuelas</p>
-                  </div>
-                </a>
-                </div>
-              </li>
-
-              <li data-color="snacks">
-                <div class="uk-animation-toggle" tabindex="0">
-                  <a href="http://">
-                  <div class="uk-card uk-card-default uk-card-body uk-animation-shake">
-                      <p class="uk-text-center">Crispetas</p>
-                  </div>
-                </a>
-                </div>
-              </li>
-
-              <li data-color="df">
-                <div class="uk-animation-toggle" tabindex="0">
-                  <a href="http://">
-                  <div class="uk-card uk-card-default uk-card-body uk-animation-shake">
-                      <p class="uk-text-center">Fruta Deshidratada</p>
-                  </div>
-                </a>
-                </div>
-              </li>
-
-              <li data-color="snacks">
-                <div class="uk-animation-toggle" tabindex="0">
-                  <a href="http://">
-                  <div class="uk-card uk-card-default uk-card-body uk-animation-shake">
-                      <p class="uk-text-center">Legumbres de Grano</p>
-                  </div>
-                </a>
-                </div>
-              </li>
-
-              <li data-color="harinas">
-                <div class="uk-animation-toggle" tabindex="0">
-                  <a href="http://">
-                  <div class="uk-card uk-card-default uk-card-body uk-animation-shake">
-                      <p class="uk-text-center">Pastas</p>
-                  </div>
-                </a>
-                </div>
-              </li>
-
-              <li data-color="snacks">
-                <div class="uk-animation-toggle" tabindex="0">
-                  <a href="http://">
-                  <div class="uk-card uk-card-default uk-card-body uk-animation-shake">
-                      <p class="uk-text-center">Barras de Cereal</p>
-                  </div>
-                </a>
-                </div>
-              </li>
-
-              <li data-color="snacks">
-                <div class="uk-animation-toggle" tabindex="0">
-                  <a href="http://">
-                  <div class="uk-card uk-card-default uk-card-body uk-animation-shake">
-                      <p class="uk-text-center">Rosquitas</p>
-                  </div>
-                </a>
-                </div>
-              </li>
-
-              <li data-color="po">
-                <div class="uk-animation-toggle" tabindex="0">
-                  <a href="http://">
-                  <div class="uk-card uk-card-default uk-card-body uk-animation-shake">
-                      <p class="uk-text-center">Panela Orgánica</p>
-                  </div>
-                </a>
-                </div>
-              </li>
-
-              <li data-color="snacks">
-                <div class="uk-animation-toggle" tabindex="0">
-                  <a href="http://">
-                  <div class="uk-card uk-card-default uk-card-body uk-animation-shake">
-                      <p class="uk-text-center">Barquillos Relleno</p>
-                  </div>
-                </a>
-                </div>
-              </li>
-
-              <li data-color="harinas">
-                <div class="uk-animation-toggle" tabindex="0">
-                  <a href="http://">
-                  <div class="uk-card uk-card-default uk-card-body uk-animation-shake">
-                      <p class="uk-text-center">Harinas</p>
-                  </div>
-                </a>
-                </div>
-              </li>
-
-              <li data-color="po">
-                <div class="uk-animation-toggle" tabindex="0">
-                  <a href="http://">
-                  <div class="uk-card uk-card-default uk-card-body uk-animation-shake">
-                      <p class="uk-text-center">Miel de Caña Orgánica</p>
-                  </div>
-                </a>
-                </div>
-              </li>
-
-              <li data-color="po">
-                <div class="uk-animation-toggle" tabindex="0">
-                  <a href="http://">
-                  <div class="uk-card uk-card-default uk-card-body uk-animation-shake">
-                      <p class="uk-text-center">Galletas</p>
-                  </div>
-                </a>
-                </div>
-              </li>
-
-              <li data-color="harinas">
-                <div class="uk-animation-toggle" tabindex="0">
-                  <a href="http://">
-                  <div class="uk-card uk-card-default uk-card-body uk-animation-shake">
-                      <p class="uk-text-center">Premezclas</p>
-                  </div>
-                </a>
-                </div>
-              </li>
-
-              <li data-color="snacks">
-                <div class="uk-animation-toggle" tabindex="0">
-                  <a href="http://">
-                  <div class="uk-card uk-card-default uk-card-body uk-animation-shake">
-                      <p class="uk-text-center">Parmesanitos Integrales</p>
-                  </div>
-                </a>
-                </div>
-              </li>
-
-              <li data-color="harinas">
-                <div class="uk-animation-toggle" tabindex="0">
-                  <a href="http://">
-                  <div class="uk-card uk-card-default uk-card-body uk-animation-shake">
-                      <p class="uk-text-center">Polvos</p>
-                  </div>
-                </a>
-                </div>
-              </li>
-
 
           </ul>
 
@@ -441,12 +275,15 @@
   <div class="uk-navbar-center uk-cover-container uk-height-x-large ">
 
       <ul class="uk-thumbnav "  uk-margin>
-        <li class="uk-active"><a href="#"><img src="../../../assets/logos-sin.fondo/logos logos-06-01.png" width="100" height="67" alt=""></a></li>
-        <li class="uk-active"><a href="#"><img src="../../../assets/logos-sin.fondo/logos logos-06-02.png" width="100" height="67" alt=""></a></li>
-        <li class="uk-active"><a href="#"><img src="../../../assets/logos-sin.fondo/logos logos-06-03.png" width="100" height="67" alt=""></a></li>
-        <li class="uk-active"><a href="#"><img src="../../../assets/logos-sin.fondo/logos logos-06-04.png" width="100" height="67" alt=""></a></li>
-        <li class="uk-active"><a href="#"><img src="../../../assets/logos-sin.fondo/logos logos-06-05.png" width="100" height="67" alt=""></a></li>
-        <li class="uk-active"><a href="#"><img src="../../../assets/logos-sin.fondo/logos logos-06-06.png" width="100" height="67" alt=""></a></li>
+
+        <li data-aos="fade-up"
+        data-aos-anchor-placement="center-center" class="uk-active"><a href="#"><img src="../../../assets/logos-sin.fondo/logos logos-06-03.png" width="90px" alt=""></a></li>
+        <li data-aos="fade-up"
+        data-aos-anchor-placement="bottom-center" class="uk-active"><a href="#"><img src="../../../assets/logos-sin.fondo/logos logos-06-04.png" width="90px" alt=""></a></li>
+        <li data-aos="fade-up"
+        data-aos-anchor-placement="bottom-center" class="uk-active"><a href="#"><img src="../../../assets/logos-sin.fondo/logos logos-06-05.png" width="90px" alt=""></a></li>
+        <li data-aos="fade-up"
+        data-aos-anchor-placement="center-center" class="uk-active"><a href="#"><img src="../../../assets/logos-sin.fondo/logos logos-06-06.png" width="90px" alt=""></a></li>
 
     </ul>
 
@@ -464,13 +301,11 @@
 
 <!--SECCIÓN DE MAPA-------------------------------------------------------->
 <div class="uk-section-default">
-  <div class="uk-section uk-light uk-background-cover" style="background-image: url(images/dark.jpg)">
-
-
+  <div class="uk-section uk-light uk-background-cover">
         <div class="uk-child-width-1-1@s uk-grid-medium" uk-grid>
           <div>
               <div class="uk-overflow-hidden align-center" >
-                  <img src="../../../assets/bindi-map-01.jpg" width="1800" height="1200" alt="Example image" class="uk-animation-reverse uk-transform-origin-top-center" uk-scrollspy="cls: uk-animation-kenburns; repeat: true">
+                  <img src="../../../assets/banners/fondo-mapa-completo.png" width="1800" height="1200" alt="Example image" class="uk-animation-reverse uk-transform-origin-top-center" uk-scrollspy="cls: uk-animation-kenburns; repeat: true">
               </div>
           </div>
 
