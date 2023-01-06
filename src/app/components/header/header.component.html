@@ -6,8 +6,8 @@
   <!--Logotipo a la izquierda-------------->
   <div class="uk-navbar-left">
     <span></span>
-    <div>
-    <a class="uk-navbar-item uk-logo" routerlink="inicio" >
+    <div >
+    <a class="uk-navbar-item uk-logo animate__animated animate__backInDown" routerlink="inicio" >
       <img src="https://firebasestorage.googleapis.com/v0/b/bindiimport.appspot.com/o/branding%2Flogo-bindi.svg?alt=media&token=56ede125-0140-498c-aaf7-c2428dee99d5" width="200px"  alt="Depplin - Departamento de Publicidad Integral">
     </a>
 
@@ -27,9 +27,6 @@
 
 
 
-
-
-
   <div class="uk-navbar-right">
 
 
@@ -38,32 +35,55 @@
 
 <div class="uk-navbar-right">
 
+
+
+
+
 <ul class="uk-navbar-nav uk-visible@m">
-        <li class="uk-active"><a href="#"><a routerLink="" >INICIO</a></a></li>
-        <li>
-            <a routerLink="" >Productos</a>
+  <!--Inicio botón-->
+  <li class="uk-active"><a routerLink="inicio" ><button class="uk-button uk-button-primary">INICIO</button></a></li>
+  <!--Inicio botón-->
+
+  <!--Botón Productos-->
+  <li>
+            <a routerLink="productos-bindi" ><button class="uk-button uk-button-primary animate__animated animate__heartBeat "> <span uk-icon="grid"></span> Productos</button></a>
             <div class="uk-navbar-dropdown">
                 <ul class="uk-nav uk-navbar-dropdown-nav">
-                    <li class="uk-active"><a href="#">Active</a></li>
-                    <li><a href="#">Item</a></li>
-                    <li><a href="#">Item</a></li>
+                    <li class="uk-active"><a href="#">Categorias: </a></li>
+                    <li><a href="#">Snacks</a></li>
+                    <li><a href="#">Derivados de Frutas</a></li>
+                  <li><a href="#">Panela Orgánnica y Derivados</a></li>
+                  <li><a href="#">Granos y Semillas</a></li>
+                  <li><a href="#">Pastas, harinas y Derivados</a></li>
                 </ul>
             </div>
         </li>
-        <li><a href="#">Nuestros Latidos</a></li>
+  <!--Botón Productos-->
 
-        <li>
+  <!--Nuestros Latidos-->
+  <li ><a routerLink="nuestros-latidos"><button class="uk-button uk-button-primary"> <span uk-icon="heart"></span> Nuestros Latidos</button></a></li>
+  <!--Nuestros Latidos-->  <!--Contacto botón -->
+
+
+  <li>
       <a href="#"><span uk-icon="icon: user ; ratio: 1"></span></a>
       <div class="uk-navbar-dropdown">
           <ul class="uk-nav uk-navbar-dropdown-nav">
               <li class="uk-active"><a routerLink="contactenos"><span class="uk-margin-small-right" uk-icon="icon: mail"></span>Escríbanos</a></li>
               <li><a href="https://www.instagram.com/bindi_import/" target="_blank"><span class="uk-margin-small-right" uk-icon="icon: instagram"></span>Instagram</a></li>
-              <li><a href="https://www.facebook.com/BindiColombia/"><span class="uk-margin-small-right" uk-icon="icon: facebook"></span>Facebook</a></li>
-              <li><a href="https://api.whatsapp.com/send?phone=573052215839&text=Hola,%20encontr%C3%A9%20sus%20productos%20en%20internet%20y%20estoy%20interesa@%20en%20su%20cat%C3%A1logo..." target=""><span class="uk-margin-small-right" uk-icon="icon: whatsapp"></span>Whatsapp</a></li>
+              <li><a href="https://www.facebook.com/BindiColombia/" target="_blank"><span class="uk-margin-small-right" uk-icon="icon: facebook"></span>Facebook</a></li>
+              <li><a href="https://api.whatsapp.com/send?phone=573052215839&text=Hola,%20encontr%C3%A9%20sus%20productos%20en%20internet%20y%20estoy%20interesa@%20en%20su%20cat%C3%A1logo..." target="_blank"><span class="uk-margin-small-right" uk-icon="icon: whatsapp"></span>Whatsapp</a></li>
           </ul>
       </div>
   </li>
+  <!--Contacto botón -->
+
 </ul>
+
+
+
+
+
 <a class="uk-navbar-toggle "uk-toggle="target: #offcanvas-reveal" ><span uk-icon="icon: menu ; ratio: 1.5"></span></a>
 <span></span>
 
@@ -131,7 +151,7 @@
     </li>
       <li class="uk-nav-header">Bindi Import</li>
       <li><a href="#"><span class="uk-margin-small-right" uk-icon="icon: home"></span> Home</a></li>
-      <li><a href="#"><span class="uk-margin-small-right" uk-icon="icon: heart"></span> Nuestros Latidos</a></li>
+      <li><a href="#"><span class="uk-margin-small-right" uk-icon="icon: heart"></span> uk-icon="heart" Nuestros Latidos</a></li>
       <li><a href="#"><span class="uk-margin-small-right" uk-icon="icon: star"></span> Responsabilidad Social y Ambiental</a></li>
 
       <li class="uk-nav-divider"></li>
