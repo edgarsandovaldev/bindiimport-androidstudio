@@ -1,3 +1,41 @@
+/*Tres puntos latidos continuos*/
+
+:root {
+  --point-color: rgb(235, 6, 6);
+  --size: 5px;
+}
+
+.loader {
+
+
+  top: 0; left: 0;
+  display: flex;
+	z-index: 100000;
+}
+
+.loader__element {
+  border-radius: 100%;
+  border: var(--size) solid var(--point-color);
+  margin: calc(var(--size)*2);
+}
+
+.loader__element:nth-child(1) {
+  animation: preloader .6s ease-in-out alternate infinite;
+}
+.loader__element:nth-child(2) {
+  animation: preloader .6s ease-in-out alternate .2s infinite;
+}
+
+.loader__element:nth-child(3) {
+  animation: preloader .6s ease-in-out alternate .4s infinite;
+}
+
+@keyframes preloader {
+  100% { transform: scale(2); }
+}
+
+
+
 /* Estilos Propios */
 .fondorojo {
   background-color:#f0506e;
@@ -17,6 +55,26 @@
   -moz-border-radius: 5px;
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
+}
+
+/*flotante suave*/
+@keyframes float {
+	0% {
+		box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0);
+		transform: translatey(0px);
+	}
+	50% {
+		box-shadow: 0 25px 15px 0px rgba(0, 0, 0, 0);
+		transform: translatey(-20px);
+	}
+	100% {
+		box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0);
+		transform: translatey(0px);
+	}
+}
+
+.flotando {
+	animation: float 6s ease-in-out infinite;
 }
 
 
