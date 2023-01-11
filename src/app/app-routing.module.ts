@@ -10,6 +10,7 @@ import { ProductosComponent } from './secciones/productos/productos.component';
 import { ResponsabilidadSocialComponent } from './secciones/responsabilidad-social/responsabilidad-social.component';
 import { ProductosBindiComponent } from './secciones/productos-bindi/productos-bindi.component';
 import { PoliticasDePrivacidadComponent } from './components/politicas-de-privacidad/politicas-de-privacidad.component';
+import { InicioBindiComponent } from './secciones/inicio-bindi/inicio-bindi.component';
 
 const routes: Routes = [
   //redirige a la página de inicio cuando la ruta esta vacia
@@ -23,7 +24,7 @@ const routes: Routes = [
   { path: 'responsabilidad', component: ResponsabilidadSocialComponent },
   { path: 'productos-bindi', component: ProductosBindiComponent },
   { path: 'politicas', component: PoliticasDePrivacidadComponent },
-
+  { path: 'inicio-bindi', component: InicioBindiComponent },
 
 ];
 

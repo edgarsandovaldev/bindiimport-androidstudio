@@ -18,6 +18,7 @@ import { NavLeftProductsComponent } from './components/nav-left-products/nav-lef
 import { NavLeftBindiComponent } from './components/nav-left-bindi/nav-left-bindi.component';
 import { ContactoRedesComponent } from './components/contacto-redes/contacto-redes.component';
 import { ProductosBindiComponent } from './secciones/productos-bindi/productos-bindi.component';
+import { InicioBindiComponent } from './secciones/inicio-bindi/inicio-bindi.component';
 
 
 
@@ -37,6 +38,7 @@ import { ProductosBindiComponent } from './secciones/productos-bindi/productos-b
     NavLeftBindiComponent,
     ContactoRedesComponent,
     ProductosBindiComponent,
+    InicioBindiComponent,
 
   ],
   imports: [
