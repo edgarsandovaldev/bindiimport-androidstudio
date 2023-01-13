@@ -1,44 +1,38 @@
 <div class="uk-section uk-section-secondary uk-light fondo">
   <div class="uk-container">
 
-    <div class="uk-navbar-left">
-
-      <div >
-        <a class="uk-navbar-item uk-logo uk-center " routerlink="inicio" >
-          <img src="https://firebasestorage.googleapis.com/v0/b/bindiimport.appspot.com/o/branding%2Flogo-bindi.svg?alt=media&token=56ede125-0140-498c-aaf7-c2428dee99d5" width="200px"  alt="Depplin - Departamento de Publicidad Integral">
-        </a>
-
-      </div>
-
-    </div>
-    <br>
-
       <div class="uk-grid-match uk-child-width-1-4@m" uk-grid>
           <div>
-          <h4>Somos una empresa
-            dedicada a la exportación de diferentes productos colombianos, nace de la necesidad de llevar
-            nuestro talento y cultura
-            colombiana a todos los rincones del mundo, cruzar fronteras es
-            nuestro propósito,
-            hacemos la mejor
-            gestión y acompañamiento a nuestros diferentes clientes en sus
-            exportaciones.</h4>
+            <a class="uk-navbar-item uk-logo uk-center " routerlink="inicio" >
+              <img src="https://firebasestorage.googleapis.com/v0/b/bindiimport.appspot.com/o/branding%2Flogo-bindi.svg?alt=media&token=56ede125-0140-498c-aaf7-c2428dee99d5" width="200px"  alt="Depplin - Departamento de Publicidad Integral">
+            </a>
           </div>
 
           <div>
-            <app-nav-left-products></app-nav-left-products>
-
+            <app-nav-left-bindi></app-nav-left-bindi>            
           </div>
 
 
           <div>
-            <app-nav-left-bindi></app-nav-left-bindi>
-
+            <ul class="uk-nav uk-navbar-dropdown-nav">
+              <li class="uk-nav-header"><h5>PRODUCTOS</h5></li>              
+              <li><a routerLink="contactenos"><span class="uk-margin-small-right" uk-icon="icon: play"></span>SNACKS</a></li>
+              <li><a ><span class="uk-margin-small-right" uk-icon="icon: play"></span>DERIVADOS DE FRUTAS</a></li>
+              <li><a ><span class="uk-margin-small-right" uk-icon="icon: play"></span>PANELA ORGÁNICA Y DERIVADOS</a></li>
+              <li><a ><span class="uk-margin-small-right" uk-icon="icon: play"></span>GRANOS Y SEMILLAS</a></li>
+              <li><a ><span class="uk-margin-small-right" uk-icon="icon: play"></span>HARINAS PASTAS Y DERIVADOS</a></li>
+            </ul>
           </div>
 
           <div>
 
-            <app-contacto-redes></app-contacto-redes>
+            <ul class="uk-nav uk-navbar-dropdown-nav">
+              <li class="uk-nav-header"><h5>CONTÁCTANOS</h5></li>             
+              <li><a routerLink="contactenos"><span class="uk-margin-small-right" uk-icon="icon: mail"></span>administracion@bindimport.com</a></li>
+              <li><a href="https://www.instagram.com/bindi_import/" target="_blank"><span class="uk-margin-small-right" uk-icon="icon: instagram"></span>@bindi_colombia</a></li>
+              <li><a href="https://www.facebook.com/BindiColombia/" target="_blank"><span class="uk-margin-small-right" uk-icon="icon: facebook"></span>Bindi Colombia</a></li>
+              <li><a href="https://api.whatsapp.com/send?phone=573052215839&text=Hola,%20encontr%C3%A9%20sus%20productos%20en%20internet%20y%20estoy%20interesa@%20en%20su%20cat%C3%A1logo..." target="_blank"><span class="uk-margin-small-right" uk-icon="icon: whatsapp"></span>+57 305221 5839</a></li>
+            </ul>
 
           </div>
       </div>
