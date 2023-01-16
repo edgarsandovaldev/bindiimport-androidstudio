@@ -1,21 +1,25 @@
 
 
+<!-- Grupo de bannners principales--------->
 
+<div class="uk-position-relative  uk-visible-toggle uk-light" tabindex="-1" uk-slideshow="animation: scale">
 
-<div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slideshow="animation: scale">
-
-  <ul class="uk-slideshow-items">
-      <li>        
+  <ul class="uk-slideshow-items ">
+      <li>
           <img src="https://img.freepik.com/foto-gratis/mujer-agricultora-ve-tabaco-campo_1150-5860.jpg?w=826&t=st=1672844166~exp=1672844766~hmac=9622f57234b0efbbeeb15a55aa116c4d11cd73de9a8eed5fa53a82f01ae2af01" alt="" uk-cover>
-          <div class="uk-position-center"><h1>" Sembremos esperanza <br> para cosechar futuro "</h1></div>
+          <div class="uk-position-top-right uk-margin uk-position-small ">
+            <h1 id="square" class="zoomIn animated">" Sembremos esperanza <br> para cosechar futuro "</h1></div>
         </li>
       <li>
           <img src="https://img.freepik.com/fotos-premium/pueblo-cerca-lajas-colombia-foto-alta-calidad_418500-727.jpg?w=826" alt="" uk-cover>
-          <div class="uk-position-center"><h1>" Son los pequeños actos <br> los que nos definen "</h1></div>
+          <div class="uk-position-top-right uk-margin uk-position-small">
+            <h1 id="square" class="zoomIn animated">" Son los pequeños actos <br> los que nos definen "</h1>
+          </div>
         </li>
       <li>
           <img src="https://img.freepik.com/foto-gratis/hermoso-jardin-fresas-amanecer-doi-ang-khang-chiang-mai-tailandia_335224-761.jpg?w=826&t=st=1672844230~exp=1672844830~hmac=e5caeb74a514d623e7110e7ac2acc4eb53131edfb84f1bf31904236cacac0551" alt="" uk-cover>
-          <div class="uk-position-center"><h1>" La tierra tiene música <br> para aquellos que la escuchan "</h1></div>
+          <div class="uk-position-top-right uk-margin uk-position-small">
+            <h1 id="square" class="zoomIn animated">" La tierra tiene música <br> para aquellos que la escuchan "</h1></div>
         </li>
   </ul>
 
@@ -24,27 +28,39 @@
 
 </div>
 
+<!-- Grupo de bannners principales--------->
 
 
 
-<div class="amarillo uk-section uk-section-primary uk-light">
-  <div class="uk-container uk-nav-center">
 
-    <h1 class="uk-heading-medium flotando " uk-parallax="opacity: 0,1,1; y: -100,0,0; x: 100,100,0; scale: 2,1,1; end: 50vh + 50%;">@bindi_colombia</h1>
 
-          <div>
-            <h3 uk-parallax="opacity: 0,1,1; y: 100,0,0; x: -100,-100,0; scale: 0.5,1,1; end: 50vh + 50%;">
 
-              Somos una empresa dedicada a la exportación de diferentes productos colombianos,
-                nace de la necesidad de llevar nuestro talento y cultura colombiana a todos los
-                rincones del mundo, cruzar fronteras es nuestro propósito, hacemos la mejor gestión
-                y acompañamiento a nuestros diferentes clientes en sus exportaciones.
-            </h3>
-
+<div class="uk-height-large uk-background-cover uk-overflow-hidden uk-light uk-flex" 
+style="background-image: url('https://img.freepik.com/vector-gratis/vector-fondo-gris-hexagonos_53876-136769.jpg?w=826&t=st=1673725674~exp=1673726274~hmac=ebab4be56515a86bda39aebcf60956fbca244e102ee226462c07fda4be79c90c');">
+  <div class="uk-width-1-2@m uk-text-center uk-margin-auto uk-margin-auto-vertical">
+    <img class="flotando uk-align-center" 
+        uk-parallax="opacity: 0,1; y: -100,0; scale: 2,1; end: 50vh + 50%;" 
+        src="../../../assets/branding/logo-bindi.svg" 
+        width="225" 
+        height="150" alt="Example image">     
+    
+            <div class="uk-card uk-card-hover uk-card-body">
+              <h4 uk-parallax="opacity: 0,1; y: -100,0; scale: 2,1; end: 50vh + 50%;">Somos una empresa dedicada a la exportación de diferentes productos colombianos,
+      nace de la necesidad de llevar nuestro talento y cultura colombiana a todos los
+      rincones del mundo, cruzar fronteras es nuestro propósito, hacemos la mejor gestión
+      y acompañamiento a nuestros diferentes clientes en sus exportaciones.
+            </h4>               
           </div>
-
+      
   </div>
 </div>
+
+
+
+
+
+
+
 
 <!--SECCIÓN NUESTRAS MARCAS-------------------------------------------------------->
 
@@ -53,7 +69,7 @@
 
     <div class="uk-navbar-center"  >
 
-      <a href="#"><h2 data-aos="zoom-in"> <strong>Nuestros Aliados</strong> </h2> </a>
+      <a href="#"><h2 data-aos="zoom-in"> <strong>{{ titulo }}</strong> </h2> </a>
 
     </div>
 

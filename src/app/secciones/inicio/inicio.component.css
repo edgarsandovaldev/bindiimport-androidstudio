@@ -4,8 +4,8 @@
 
 }
 
-.amarillo {
-  background-color: #F9A41E;
+.imagen-fondo {
+  background-image: url(https://img.freepik.com/vector-gratis/vector-fondo-gris-hexagonos_53876-136769.jpg?w=826&t=st=1673725674~exp=1673726274~hmac=ebab4be56515a86bda39aebcf60956fbca244e102ee226462c07fda4be79c90c);
 }
 
 .border15 {
@@ -20,4 +20,85 @@ p {
   color: aliceblue;
   text-shadow: darkred;
 }
+
+h1 {
+  color: #f0e9e9;
+  text-shadow:
+    0 1px 0 #ccc,
+    0 2px 0 #a5a4a4,
+    0 3px 0 rgb(150, 147, 147),
+    0 4px 0 #6d6c6c,
+    0 5px 0 rgb(88, 87, 87),
+    0 6px 1px rgba(0,0,0,.1),
+    0 0 5px rgba(0,0,0,.1),
+    0 1px 3px rgba(0,0,0,.3),
+    0 3px 5px rgba(0,0,0,.2),
+    0 5px 10px rgba(0,0,0,.25),
+    0 10px 10px rgba(0,0,0,.2),
+    0 20px 20px rgba(0,0,0,.15);
+  text-align: right;
+  text-justify: auto;
+  font: 700 2.8em/1 "Oswald", sans-serif;
+}
+
+
+h4 {
+  color: #ec0e0e;
+}
+
+
+
+
+/*base code
+http://anicollection.github.io/#/zooming_entrances/zoomIn
+Esta biblioteca me entrega el codigo para agregarlo directo al css puro*/
+.animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+.animated.infinite {
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+}
+.animated.hinge {
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+}
+/*the animation definition*/
+@-webkit-keyframes zoomIn {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale3d(.3, .3, .3);
+    transform: scale3d(.3, .3, .3)
+  }
+  50% {
+    opacity: 1
+  }
+}
+@keyframes zoomIn {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale3d(.3, .3, .3)  ;
+    -ms-transform: scale3d(.3, .3, .3)  ;
+    transform: scale3d(.3, .3, .3)  ;
+    -moz-transform: scale3d(.3, .3, .3)  ;
+    -o-transform: scale3d(.3, .3, .3)  ;
+}
+  50% {
+    opacity: 1
+  }
+}
+.zoomIn {
+  -webkit-animation-name: zoomIn;
+  animation-name: zoomIn
+}
+
+/* final base code
+http://anicollection.github.io/#/zooming_entrances/zoomIn
+Esta biblioteca me entrega el codigo para agregarlo directo al css puro*/
+
+
+
 
