@@ -1,7 +1,38 @@
+
+/*Blibliotecas en Uso instalas NPM
+
+Uso para el esqueleto completo de UIKIT
+https://getuikit.com/
+
+AOS JS para efectos de Movimiento
+https://michalsnik.github.io/aos/
+
+
+ImageHover para efectos en Cajas de Imagenes
+https://github.com/ciar4n/imagehover.css
+
+
+También he usado classe propias
+
+
+
+
+
+*/ 
+
+
+
+
+
+
+
+
+
+
 /*Color Textos*/
 
 
-/*Tres puntos latidos continuos*/
+/*Tres puntos latidos continuos, este es código de una biblioteca nueva*/
 
 :root {
   --point-color: rgb(235, 6, 6);
@@ -36,6 +67,11 @@
 @keyframes preloader {
   100% { transform: scale(2); }
 }
+
+/*Tres puntos latidos continuos, este es código de una biblioteca nueva*/
+
+
+
 
 
 
@@ -79,6 +115,11 @@
 .flotando {
 	animation: float 6s ease-in-out infinite;
 }
+
+/*flotante suave*/
+
+
+
 
 
 
@@ -6106,6 +6147,7 @@ ul.uk-nav-sub {
 /*
  * Previous
  */
+ 
 /*
  * Next
  */
@@ -6320,7 +6362,7 @@ ul.uk-nav-sub {
   /* 3 */
   line-height: 0;
   /* 4 */
-  color: #999;
+  color: rgb(234, 10, 10);
   /* 5 */
   text-decoration: none;
   font-size: 0.875rem;
@@ -6329,11 +6371,11 @@ ul.uk-nav-sub {
 }
 /* Hover */
 .uk-iconnav > * > a:hover {
-  color: #666;
+  color: rgb(235, 11, 11);
 }
 /* Active */
 .uk-iconnav > .uk-active > a {
-  color: #666;
+  color: rgb(229, 12, 12);
 }
 /* Modifier: 'uk-iconnav-vertical'
  ========================================================================== */
@@ -9477,6 +9519,7 @@ iframe[data-uk-cover] {
   height: 0 !important;
   padding: 0 !important;
   margin: 0 !important;
+  
   overflow: hidden !important;
 }
 /*
@@ -12530,4 +12573,17 @@ iframe[data-uk-cover] {
     page-break-after: avoid;
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
