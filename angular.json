@@ -25,7 +25,8 @@
             "styles": [
               "src/styles.css",
               "./node_modules/aos/dist/aos.css",
-              "./node_modules/imagehover.css/scss/imagehover.scss"
+              "./node_modules/imagehover.css/scss/imagehover.scss",
+              "./src/assets/efectoscss/wickedcss.min.css"
             ],
             "scripts": [
               "./node_modules/uikit/dist/js/uikit.min.js",

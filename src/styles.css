@@ -83,6 +83,10 @@ También he usado classe propias
   margin-top: 10px;
 }
 
+.inicio-yeloow {
+  background-color: #F5A322;
+}
+
 /*Barra de Scroll personalizado*/
 .contenedor::-webkit-scrollbar {
   width: 7px;
