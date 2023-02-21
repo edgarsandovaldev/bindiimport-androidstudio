@@ -18,7 +18,7 @@ También he usado classe propias
 
 
 
-*/ 
+*/
 
 
 
@@ -98,6 +98,11 @@ También he usado classe propias
   -moz-border-radius: 5px;
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
+}
+
+.drop {
+  filter: drop-shadow(5px 5px 5px rgb(48, 47, 47));
+  -webkit-filter: drop-shadow(5px 5px 5px rgb(48, 47, 47));
 }
 
 /*flotante suave*/
@@ -6151,7 +6156,7 @@ ul.uk-nav-sub {
 /*
  * Previous
  */
- 
+
 /*
  * Next
  */
@@ -9523,7 +9528,7 @@ iframe[data-uk-cover] {
   height: 0 !important;
   padding: 0 !important;
   margin: 0 !important;
-  
+
   overflow: hidden !important;
 }
 /*
